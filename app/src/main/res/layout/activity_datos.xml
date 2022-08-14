@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sangre"
+    tools:context=".datos">
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="521dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/teclea_el_nombre"
+
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/Edad"
+
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="@string/guardar_registro"
+            android:textColor="#B2EBF2" />
+
+        <Button
+            android:id="@+id/eliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="@string/eliminar_registro"
+            android:textColor="#FFE0B2" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="@string/actualziar_registro"
+            android:textColor="#FFE0B2" />
+
+        <Button
+            android:id="@+id/leerb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="@string/leer_registros"
+            android:textColor="#FFE0B2" />
+
+        <TextView
+            android:id="@+id/contenidob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aqui_se_despliegan_los_registros"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

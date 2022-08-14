@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="leer" type="id">leer</item>
+    <item name="bases" type="id">bases</item>
+    <item name="externo" type="id">externo</item>
+    <item name="captura" type="id">captura</item>
+    <item name="contenido" type="id">contenido</item>
+    <item name="contenidos" type="id">contenidos</item>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_body">dialog body</dimen>
+    <dimen name="padding_between">padding betwen</dimen>
+    <dimen name="button_padding">button padding</dimen>
+    <dimen name="normal_padding">normal padding</dimen>
+    <dimen name="edit_text_padding">edit tex padding</dimen>
+</resources>

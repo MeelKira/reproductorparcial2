@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="ir_a_menu">IR A MENU</string>
+    <string name="app_name">app name</string>
+    <string name="info_text">info</string>
+    <string name="crear_boton">crear boton</string>
+    <string name="nombre_input">nombre input</string>
+    <string name="contrasena_input">contraseña input</string>
+    <string name="contrasena">contraseña</string>
+    <string name="recordar_check">recordar</string>
+    <string name="olvidar_text">olvidar</string>
+    <string name="entrar_boton">Iniciar</string>
+    <string name="nombre">Nombre</string>
+    <string name="Edad">Edad</string>
+    <string name="teclea_el_nombre">Nombre</string>
+    <string name="teclea_la_edad">Edad</string>
+    <string name="guardar_registro">Registrar</string>
+    <string name="eliminar_registro">Eliminar Datos</string>
+    <string name="actualziar_registro">Actualizar Datos</string>
+    <string name="leer_registros">Leer Datos</string>
+    <string name="aqui_se_despliegan_los_registros">Datos Registrados</string>
+    <string name="guardar_en_el_archivo">Guardar en el archivo</string>
+    <string name="Leer_datos_de_archivo">leer datos de archivo</string>
+    <string name="Ir_al_almacenamiento_externo">Ir al almacenamiento interno</string>
+    <string name="Ir_a_Base_de_datos1">ir a</string>
+</resources>
